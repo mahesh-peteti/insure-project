@@ -12,5 +12,5 @@
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8082 --name insure-me12 mahesh-peteti/insureapp:1.0
+    command: docker run -itd -p 8084:8082 --name insure-me maheshpeteti/capstone:1.0
 ...
